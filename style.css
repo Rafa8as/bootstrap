@@ -64,6 +64,56 @@
     border-radius: 15px;
 }
 
+.acordeon{
+    background-color: #B4CFB0;
+    color: rgb(77, 67, 144);
+
+
+}
+.acordeon-uno {
+    background-color: #78939572;
+    color: rgb(77, 67, 144);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    align-items: center;
+
+    
+}
+.acordeon-uno a {
+    background-color: #74959a7f;
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 15px;
+  
+}
+
+.formulario {
+    width: 100%;
+    background-color: #B4CFB0;
+    padding: 20px;
+   
+   
+    
+}
+.formulario-uno{
+    width: 100%;
+    height: 45vh;
+    background: linear-gradient(rgba(69, 67, 67, 0.46), rgba(165, 146, 146, 0.455)), url("Imagenes/Molino-estrellas.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    align-items: center;
+    color: #E5E3C9;
+}
 .rastrojo { 
     display: flex;
     flex-direction: row;
@@ -171,7 +221,7 @@
 
 }
 
-.mapa>div {
+.mapa> div {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -180,7 +230,7 @@
 
 }
 
-.mapa>div img {
+.mapa > div iframe {
     width: 600px;
     height: 400px;
 }
